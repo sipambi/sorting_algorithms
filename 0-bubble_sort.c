@@ -1,19 +1,18 @@
 #include "sort.h"
+
 /**
- * bubble_sort - implements Bubble sort algorithm and it sorts
- * in ascending order
+ * bubble_sort - implements Bubble sort algorithm  *
  * @array: The array to be sorted
  * @size: The size of the array
- * Return: nothing
+ * Return - nothing
  */
 void bubble_sort(int *array, size_t size)
 {
 	size_t i, n, new_n;
 	int temp;
-
+	
 	if (array == NULL || size < 2)
 		return;
-
 	n = size;
 	while (n > 0)
 	{
