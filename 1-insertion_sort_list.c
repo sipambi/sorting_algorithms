@@ -1,11 +1,9 @@
 #include "sort.h"
-
 /**
  * insertion_sort_list - implements Insertion sort algorithm and it
  * works on a doubly linked list of integers to sort it in ascending
  * order
  * @list: Double pointer to the head of the linked list
- *
  * Return: nothing
  */
 void insertion_sort_list(listint_t **list)
